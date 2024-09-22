@@ -8,7 +8,7 @@ export interface GlobalDataProps {
   editor: EditorProps;
 }
 
-export default createStore({
+export default createStore<GlobalDataProps>({
   modules: {
     user,
     templates,
