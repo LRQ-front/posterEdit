@@ -19,7 +19,13 @@ interface ComponentData {
 export const componentData = [
   {
     id: uuidv4(),
-    props: { text: "hello1", fontSize: "20px", color: "pink" },
+    props: {
+      text: "百度",
+      fontSize: "20px",
+      color: "pink",
+      url: "https://www.baidu.com",
+      actionType: "url",
+    },
     name: "l-text",
   },
   {
