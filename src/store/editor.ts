@@ -19,17 +19,17 @@ interface ComponentData {
 export const componentData = [
   {
     id: uuidv4(),
-    props: { text: "hello1", fontSize: "20px" },
+    props: { text: "hello1", fontSize: "20px", color: "pink" },
     name: "l-text",
   },
   {
     id: uuidv4(),
-    props: { text: "hello2", fontSize: "14px" },
+    props: { text: "hello2", fontSize: "14px", fontWeight: "bold" },
     name: "l-text",
   },
   {
     id: uuidv4(),
-    props: { text: "hello3", fontSize: "20px" },
+    props: { text: "hello3", fontSize: "20px", textAlign: "center" },
     name: "l-text",
   },
 ];

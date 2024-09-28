@@ -59,6 +59,7 @@ export default defineComponent({
   padding: 24px;
 }
 .preview-list {
+  position: relative;
   width: 400px;
   height: 400px;
   background: #fff;
